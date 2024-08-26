@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Youtube.Services.AuthAPI", "Youtube.Services.AuthAPI\Youtube.Services.AuthAPI.csproj", "{5F7D6E71-F36D-4E54-B7B6-F18554A402C2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{3BA2780D-5BCD-49D4-8626-73068CCDC755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeClone.Web", "YouTubeClone.Web\YouTubeClone.Web.csproj", "{83182521-6B38-4AA9-B361-BF700E631D60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{5F7D6E71-F36D-4E54-B7B6-F18554A402C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F7D6E71-F36D-4E54-B7B6-F18554A402C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F7D6E71-F36D-4E54-B7B6-F18554A402C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83182521-6B38-4AA9-B361-BF700E631D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83182521-6B38-4AA9-B361-BF700E631D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83182521-6B38-4AA9-B361-BF700E631D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83182521-6B38-4AA9-B361-BF700E631D60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5F7D6E71-F36D-4E54-B7B6-F18554A402C2} = {C2C0C2CC-3604-40A4-A005-A309E3223619}
+		{83182521-6B38-4AA9-B361-BF700E631D60} = {3BA2780D-5BCD-49D4-8626-73068CCDC755}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3ED7828-BC4E-4528-ACA2-2B62AA7F1AA3}
